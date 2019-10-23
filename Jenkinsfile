@@ -34,7 +34,7 @@ pipeline {
         stage('test-codescan') {
           steps {
             echo 'test-codescan'
-            jiraAddComment(idOrKey: '10008', comment: 'abcdefg', input: 'inputddd')
+            jiraAddComment(idOrKey: '10008', comment: 'abcdefg', input: 'inputddd', auditLog: true)
           }
         }
       }

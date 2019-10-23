@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bytheone.mapper.SysSourceMapper">
+    <resultMap id="BaseResultMap" type="com.bytheone.entity.SysSource">
+        <id column="id" jdbcType="VARCHAR" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="mobile" jdbcType="VARCHAR" property="mobile"/>
+        <result column="age" jdbcType="VARCHAR" property="age"/>
+        <result column="gender" jdbcType="VARCHAR" property="gender"/>
+        <result column="degree" jdbcType="VARCHAR" property="degree"/>
+        <result column="school" jdbcType="VARCHAR" property="school"/>
+        <result column="hukou" jdbcType="VARCHAR" property="hukou"/>
+        <result column="location" jdbcType="VARCHAR" property="location"/>
+        <result column="email" jdbcType="VARCHAR" property="email"/>
+        <result column="education" jdbcType="VARCHAR" property="education"/>
+        <result column="career" jdbcType="VARCHAR" property="career"/>
+        <result column="project" jdbcType="VARCHAR" property="project"/>
+        <result column="skills" jdbcType="VARCHAR" property="skills"/>
+        <result column="source_type" jdbcType="TINYINT" property="sourceType"/>
+        <result column="position" jdbcType="VARCHAR" property="position"/>
+        <result column="receive_date" jdbcType="VARCHAR" property="receiveDate"/>
+        <result column="status" jdbcType="TINYINT" property="status"/>
+        <result column="remark" jdbcType="VARCHAR" property="remark"/>
+        <result column="url" jdbcType="VARCHAR" property="url"/>
+        <result column="create_By" jdbcType="VARCHAR" property="createBy"/>
+        <result column="create_date" jdbcType="TIMESTAMP" property="createDate"/>
+        <result column="update_By" jdbcType="VARCHAR" property="updateBy"/>
+        <result column="update_Date" jdbcType="TIMESTAMP" property="updateDate"/>
+        <result column="permission" jdbcType="VARCHAR" property="permission"/>
+        <result column="priority" jdbcType="VARCHAR" property="priority"/>
+        <result column="source_detail" jdbcType="VARCHAR" property="sourceDetail"/>
+        <result column="graduate_date" jdbcType="TIMESTAMP" property="graduateDate"/>
+
+    </resultMap>
+
+    <sql id="baseColumnList">
+        id,
+        name,
+        mobile,
+        age,
+        gender,
+        degree,
+        school,
+        hukou,
+        location,
+        email,
+        education,
+        career,
+        project,
+        skills,
+        source_type,
+        position,
+        remark,
+        url,
+        status,
+        receive_date,
+        create_by,
+        create_date,
+        update_by,
+        update_date,
+        permission,
+        priority,
+        source_detail,
+        graduate_date
+    </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="baseColumnList"/>
+        from sys_source
+        where id = #{id,jdbcType=VARCHAR}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+        delete from sys_source
+        where id = #{id,jdbcType=VARCHAR}
+    </delete>
+    <insert id="insert" parameterType="com.bytheone.entity.SysSource">
+        INSERT INTO sys_source
+        (
+        id,
+        name,
+        mobile,
+        age,
+        gender,
+        degree,
+        school,
+        hukou,
+        location,
+        email,
+        education,
+        career,
+        project,
+        skills,
+        position,
+        remark,
+        url,
+        status,
+        receive_date,
+        create_by,
+        create_date,
+        update_by,
+        update_date,
+        permission,
+        source_type,
+        priority,
+        source_detail,
+        graduate_date
+        )
+        VALUES
+        (
+        #{id,jdbcType=VARCHAR},
+        #{name,jdbcType=VARCHAR},
+        #{mobile,jdbcType=VARCHAR},
+        #{age,jdbcType=VARCHAR},
+        #{gender,jdbcType=VARCHAR},
+        #{degree,jdbcType=VARCHAR},
+        #{school,jdbcType=VARCHAR},
+        #{hukou,jdbcType=VARCHAR},
+        #{location,jdbcType=VARCHAR},
+        #{email,jdbcType=VARCHAR},
+        #{education,jdbcType=VARCHAR},
+        #{career,jdbcType=VARCHAR},
+        #{project,jdbcType=VARCHAR},
+        #{skills,jdbcType=VARCHAR},
+        #{position,jdbcType=VARCHAR},
+        #{remark,jdbcType=VARCHAR},
+        #{url,jdbcType=VARCHAR},
+        #{status,jdbcType=TINYINT},
+        #{receiveDate,jdbcType=TIMESTAMP},
+        #{createBy,jdbcType=VARCHAR},
+        #{createDate,jdbcType=TIMESTAMP},
+        #{updateBy,jdbcType=VARCHAR},
+        #{updateDate,jdbcType=TIMESTAMP},
+        #{permission,jdbcType=VARCHAR},
+        #{sourceType,jdbcType=TINYINT},
+        #{priority,jdbcType=VARCHAR},
+        #{sourceDetail,jdbcType=VARCHAR},
+        #{graduateDate,jdbcType=TIMESTAMP}
+        )
+    </insert>
+    <insert id="insertSelective" parameterType="com.bytheone.entity.SysSource">
+        insert into sys_source
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="name != null">
+                name,
+            </if>
+            <if test="mobile != null">
+                mobile,
+            </if>
+            <if test="age != null">
+                age,
+            </if>
+            <if test="gender != null">
+                gender,
+            </if>
+            <if test="degree != null">
+                degree,
+            </if>
+            <if test="hukou != null">
+                hukou,
+            </if>
+            <if test="school != null">
+                school,
+            </if>
+            <if test="location != null">
+                location,
+            </if>
+            <if test="email != null">
+                email,
+            </if>
+            <if test="education != null">
+                education,
+            </if>
+            <if test="career != null">
+                career,
+            </if>
+            <if test="project != null">
+                project,
+            </if>
+            <if test="skills != null">
+                skills,
+            </if>
+            <if test="position != null">
+                position,
+            </if>
+            <if test="remark != null">
+                remark,
+            </if>
+            <if test="url != null">
+                url,
+            </if>
+            <if test="status != null">
+                status,
+            </if>
+            <if test="receiveDate != null">
+                receive_date,
+            </if>
+            <if test="createBy != null">
+                create_by,
+            </if>
+            <if test="createDate != null">
+                create_date,
+            </if>
+            <if test="updateBy != null">
+                update_by,
+            </if>
+            <if test="updateDate != null">
+                update_date,
+            </if>
+            <if test="permission != null">
+                permission,
+            </if>
+            <if test="sourceType != null">
+                source_type,
+            </if>
+            <if test="priority != null">
+                priority,
+            </if>
+            <if test="sourceDetail != null">
+                source_detail,
+            </if>
+            <if test="graduateDate != null">
+                graduate_date,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=VARCHAR},
+            </if>
+            <if test="name != null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="mobile != null">
+                #{mobile,jdbcType=VARCHAR},
+            </if>
+            <if test="age != null">
+                #{age,jdbcType=VARCHAR},
+            </if>
+            <if test="gender != null">
+                #{gender,jdbcType=VARCHAR},
+            </if>
+            <if test="degree != null">
+                #{degree,jdbcType=VARCHAR},
+            </if>
+            <if test="school != null">
+                #{school,jdbcType=VARCHAR},
+            </if>
+            <if test="hukou != null">
+                #{hukou,jdbcType=VARCHAR},
+            </if>
+            <if test="location != null">
+                #{location,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null">
+                #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="education != null">
+                #{education,jdbcType=VARCHAR},
+            </if>
+            <if test="career != null">
+                #{career,jdbcType=VARCHAR},
+            </if>
+            <if test="project != null">
+                #{project,jdbcType=VARCHAR},
+            </if>
+            <if test="skills != null">
+                #{skills,jdbcType=VARCHAR},
+            </if>
+            <if test="position != null">
+                #{position,jdbcType=VARCHAR},
+            </if>
+            <if test="remark != null">
+                #{remark,jdbcType=VARCHAR},
+            </if>
+            <if test="url != null">
+                #{url,jdbcType=VARCHAR},
+            </if>
+            <if test="status != null">
+                #{status,jdbcType=TINYINT},
+            </if>
+            <if test="receiveDate != null">
+                #{receiveDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createBy != null">
+                #{createBy,jdbcType=VARCHAR},
+            </if>
+            <if test="createDate != null">
+                #{createDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateBy != null">
+                #{updateBy,jdbcType=VARCHAR},
+            </if>
+            <if test="updateDate != null">
+                #{updateDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="permission != null">
+                #{permission,jdbcType=VARCHAR},
+            </if>
+            <if test="sourceType != null">
+                #{sourceType,jdbcType=TINYINT},
+            </if>
+            <if test="priority != null">
+                #{priority,jdbcType=VARCHAR},
+            </if>
+            <if test="sourceDetail != null">
+                #{sourceDetail,jdbcType=VARCHAR},
+            </if>
+            <if test="graduateDate != null">
+                #{graduateDate,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.bytheone.entity.SysSource">
+        update sys_source
+        <set>
+            <if test="id != null">
+                id = #{id,jdbcType=VARCHAR},
+            </if>
+            <if test="name != null">
+                name = #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="mobile != null">
+                mobile = #{mobile,jdbcType=VARCHAR},
+            </if>
+            <if test="age != null">
+                age = #{age,jdbcType=VARCHAR},
+            </if>
+            <if test="gender != null">
+                gender = #{gender,jdbcType=VARCHAR},
+            </if>
+            <if test="degree != null">
+                degree = #{degree,jdbcType=VARCHAR},
+            </if>
+            <if test="school != null">
+                school = #{school,jdbcType=VARCHAR},
+            </if>
+            <if test="hukou != null">
+                hukou = #{hukou,jdbcType=VARCHAR},
+            </if>
+            <if test="location != null">
+                location = #{location,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null">
+                email = #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="education != null">
+                education = #{education,jdbcType=VARCHAR},
+            </if>
+            <if test="career != null">
+                career = #{career,jdbcType=VARCHAR},
+            </if>
+            <if test="project != null">
+                project = #{project,jdbcType=VARCHAR},
+            </if>
+            <if test="skills != null">
+                skills = #{skills,jdbcType=VARCHAR},
+            </if>
+            <if test="position != null">
+                position = #{position,jdbcType=VARCHAR},
+            </if>
+            <if test="remark != null">
+                remark = #{remark,jdbcType=VARCHAR},
+            </if>
+            <if test="url != null">
+                url = #{url,jdbcType=VARCHAR},
+            </if>
+            <if test="status != null">
+                status= #{status,jdbcType=TINYINT},
+            </if>
+            <if test="receiveDate != null">
+                receive_date= #{receiveDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createBy != null">
+                create_by = #{createBy,jdbcType=VARCHAR},
+            </if>
+            <if test="createDate != null">
+                create_date = #{createDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateBy != null">
+                update_by = #{updateBy,jdbcType=VARCHAR},
+            </if>
+            <if test="updateDate != null">
+                update_date = #{updateDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="permission != null">
+                permission = #{permission,jdbcType=VARCHAR},
+            </if>
+            <if test="sourceType != null">
+                source_type = #{sourceType,jdbcType=TINYINT},
+            </if>
+            <if test="priority != null">
+                priority = #{priority,jdbcType=VARCHAR},
+            </if>
+            <if test="sourceDetail != null">
+                source_detail = #{sourceDetail,jdbcType=VARCHAR},
+            </if>
+            <if test="graduateDate != null">
+                graduate_date = #{graduateDate,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where id = #{id,jdbcType=VARCHAR}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.bytheone.entity.SysSource">
+        update sys_source
+        set
+        name = #{name,jdbcType=VARCHAR},
+        mobile = #{mobile,jdbcType=VARCHAR},
+        age = #{age,jdbcType=VARCHAR},
+        gender = #{gender,jdbcType=VARCHAR},
+        degree = #{degree,jdbcType=VARCHAR},
+        school = #{school,jdbcType=VARCHAR},
+        hukou = #{hukou,jdbcType=VARCHAR},
+        location = #{location,jdbcType=VARCHAR},
+        email = #{email,jdbcType=VARCHAR},
+        education = #{education,jdbcType=VARCHAR},
+        career = #{career,jdbcType=VARCHAR},
+        project = #{project,jdbcType=VARCHAR},
+        skills = #{skills,jdbcType=VARCHAR},
+        position = #{position,jdbcType=VARCHAR},
+        remark = #{remark,jdbcType=VARCHAR},
+        url = #{url,jdbcType=VARCHAR},
+        status = #{status,jdbcType=TINYINT}
+        receive_date = #{receiveDate,jdbcType=TIMESTAMP},
+        create_by = #{createBy,jdbcType=VARCHAR},
+        create_date = #{createDate,jdbcType=TIMESTAMP},
+        update_by = #{updateBy,jdbcType=VARCHAR},
+        update_date = #{updateDate,jdbcType=TIMESTAMP},
+        permission = #{permission,jdbcType=VARCHAR},
+        source_type = #{sourceType,jdbcType=TINYINT},
+        priority = #{priority,jdbcType=VARCHAR},
+        source_detail = #{sourceDetail,jdbcType=VARCHAR},
+        graduate_date = #{graduateDate,jdbcType=TIMESTAMP}
+        where id = #{id,jdbcType=VARCHAR}
+    </update>
+    <select id="selectListByPage" parameterType="com.bytheone.entity.SysSource" resultMap="BaseResultMap">
+        SELECT
+        <include refid="baseColumnList"/>
+        from sys_source
+        <where>
+            <if test="name!=null and name!=''">and role_name like '%${name}%'</if>
+            <if test="mobile!=null and mobile!=''">and remark like '%${mobile}%'</if>
+        </where>
+        order by create_date desc
+    </select>
+
+</mapper>

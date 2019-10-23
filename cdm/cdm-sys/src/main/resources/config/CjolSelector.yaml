@@ -1,0 +1,16 @@
+# 人才热线
+Name: body > div > table:nth-child(3) > tbody > tr:nth-child(1) > td:nth-child(1)
+Gender: body > div > table:nth-child(4) > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(4) > td:nth-child(4)
+Age: body > div > table:nth-child(4) > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(5) > td:nth-child(4)
+Education: body > div > table:nth-child(4) > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(4) > td:nth-child(2)
+School: body > div > table:nth-child(4) > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(5) > td:nth-child(2)
+Mobile: body > div > table:nth-child(6) > tbody > tr:nth-child(3) > td > table > tbody > tr:nth-child(1) > td:nth-child(2)
+Hukou: body > div > table:nth-child(6) > tbody > tr:nth-child(3) > td > table > tbody > tr:nth-child(1) > td:nth-child(4)
+Location: body > div > table:nth-child(6) > tbody > tr:nth-child(3) > td > table > tbody > tr:nth-child(2) > td:nth-child(4)
+Email: body > div > table:nth-child(6) > tbody > tr:nth-child(3) > td > table > tbody > tr:nth-child(4) > td:nth-child(2) > a
+Career: body > div > table:nth-child(7) > tbody > tr:nth-child(3) > td
+ProjectExperience:
+EducationBackground: body > div > table:nth-child(8) > tbody > tr:nth-child(3) > td > table > tbody
+TechnicalSkills: body > div > table:nth-child(10) > tbody > tr:nth-child(3) > td > table > tbody > tr > td
+AppliedPosition: body > div > table:nth-child(2) > tbody > tr > td:nth-child(2)
+Remark: body > div > table:nth-child(5) > tbody > tr:nth-child(3) > td > table > tbody

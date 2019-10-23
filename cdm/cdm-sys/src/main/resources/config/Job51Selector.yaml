@@ -1,0 +1,17 @@
+# 前程无忧
+Name: body > table:nth-child(4) > tbody > tr > td > table:nth-child(1) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(1) > strong
+Age: body > table:nth-child(4) > tbody > tr > td > table:nth-child(1) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(1)
+Gender: body > table:nth-child(4) > tbody > tr > td > table:nth-child(1) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(1)
+Education : body > table:nth-child(4) > tbody > tr > td > table:nth-child(2) > tbody > tr > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4) > td:nth-child(2)
+School : body > table:nth-child(4) > tbody > tr > td > table:nth-child(2) > tbody > tr > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(3) > td:nth-child(2)
+Mobile : body > table:nth-child(4) > tbody > tr > td > table:nth-child(1) > tbody > tr > td:nth-child(2) > table:nth-child(2) > tbody > tr:nth-child(1) > td:nth-child(1) > table > tbody > tr > td:nth-child(2)
+Hukou : 
+Location : body > table:nth-child(4) > tbody > tr > td > table:nth-child(1) > tbody > tr > td:nth-child(2) > table:nth-child(2) > tbody > tr:nth-child(2) > td:nth-child(1) > table > tbody > tr > td:nth-child(2)
+Email : body > table:nth-child(4) > tbody > tr > td > table:nth-child(1) > tbody > tr > td:nth-child(2) > table:nth-child(2) > tbody > tr:nth-child(1) > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > a
+Career : body > table:nth-child(4) > tbody > tr > td > table:nth-child(5) > tbody > tr:nth-child(2) > td > table > tbody
+ProjectExperience : body > table:nth-child(4) > tbody > tr > td > table:nth-child(6) > tbody > tr:nth-child(2) > td > table > tbody
+EducationBackground : body > table:nth-child(4) > tbody > tr > td > table:nth-child(7) > tbody > tr:nth-child(2) > td > table > tbody > tr > td > table > tbody
+GraduateDate : body > table:nth-child(4) > tbody > tr > td > table:nth-child(7) > tbody > tr:nth-child(2) > td > table > tbody > tr > td > table > tbody > tr:nth-child(1) > td:nth-child(1)
+TechnicalSkills : body > table:nth-child(4) > tbody > tr > td > table:nth-child(9) > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td:nth-child(2)
+AppliedPosition : body > table:nth-child(1) > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(1) > td:nth-child(1) > table > tbody > tr > td:nth-child(2)
+Remark : body > table:nth-child(4) > tbody > tr > td > table:nth-child(4) > tbody > tr:nth-child(2) > td > table > tbody

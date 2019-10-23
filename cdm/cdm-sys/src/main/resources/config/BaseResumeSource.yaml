@@ -1,0 +1,10 @@
+# 邮箱基本配置
+ImapServer : imap.vip.163.com
+Protocol : imap
+Account : szhzdlsale@vip.163.com
+Password : Hzdlsz89jgh
+
+# 运行配置
+LastRunTime : 2018-06-20 15:45:41
+LastCsvFile : resume_list_20180611_210200_214.csv
+ResumeSaveFolder : C:\Resume

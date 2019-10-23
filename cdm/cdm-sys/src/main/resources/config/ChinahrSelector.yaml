@@ -1,0 +1,16 @@
+# 中华英才
+Name : #chr_rsm > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(2) > div:nth-child(1)
+Age : #chr_rsm > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(2) > div:nth-child(2)
+Gender : #chr_rsm > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(2) > div:nth-child(2)
+Education : #chr_rsm > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(2) > div:nth-child(2)
+School : 
+Mobile : #chr_rsm > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(2) > div:nth-child(4) > span:nth-child(2)
+Hukou : 
+Location : #chr_rsm > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(2) > div:nth-child(3)
+Email : #chr_rsm > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(2) > div:nth-child(4) > span:nth-child(3) > span
+Career : #chr_rsm > tbody > tr:nth-child(6) > td > table > tbody > tr:nth-child(1)
+ProjectExperience : #chr_rsm > tbody > tr:nth-child(7) > td > table > tbody
+EducationBackground : #chr_rsm > tbody > tr:nth-child(6) > td > table > tbody
+TechnicalSkills : #chr_rsm > tbody > tr:nth-child(8) > td > table > tbody
+AppliedPosition : #chr_rsm > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1)
+Remark : #chr_rsm > tbody > tr:nth-child(4) > td > table > tbody > tr:nth-child(3) > td

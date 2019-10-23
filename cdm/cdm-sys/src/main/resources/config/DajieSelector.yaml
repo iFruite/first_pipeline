@@ -1,0 +1,16 @@
+# 大街网
+Name : body > table > tbody > tr:nth-child(2) > td > div > div > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(1) > tbody > tr:nth-child(1) > td:nth-child(1) > span:nth-child(1)
+Age : body > table > tbody > tr:nth-child(2) > td > div > div > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(1) > tbody > tr:nth-child(1) > td:nth-child(1) > span:nth-child(2)
+Gender : body > table > tbody > tr:nth-child(2) > td > div > div > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(1) > tbody > tr:nth-child(1) > td:nth-child(1) > span:nth-child(2)
+Education : body > table > tbody > tr:nth-child(2) > td > div > div > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(1) > tbody > tr:nth-child(3) > td > table > tbody > tr:nth-child(1) > td:nth-child(1)
+School : 
+Mobile : body > table > tbody > tr:nth-child(2) > td > div > div > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(1) > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1)
+Hukou : body > table > tbody > tr:nth-child(2) > td > div > div > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(1) > tbody > tr:nth-child(3) > td > table > tbody > tr:nth-child(2) > td:nth-child(1)
+Location : body > table > tbody > tr:nth-child(2) > td > div > div > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(1) > tbody > tr:nth-child(3) > td > table > tbody > tr:nth-child(2) > td:nth-child(3)
+Email : body > table > tbody > tr:nth-child(2) > td > div > div > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(1) > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(2)
+Career : body > table > tbody > tr:nth-child(2) > td > div > div > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(3) > tbody
+ProjectExperience :
+EducationBackground :
+TechnicalSkills : 
+AppliedPosition : body > table > tbody > tr:nth-child(2) > td > div > div > table:nth-child(1) > tbody > tr > td:nth-child(1)
+Remark : body > table > tbody > tr:nth-child(2) > td > div > div > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(3) > tbody > tr:nth-child(4) > td:nth-child(2) > table > tbody > tr:nth-child(1) > td

@@ -1,0 +1,16 @@
+# 58同城
+Name : body > div > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > h3
+Age : body > div > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > h3 > span
+Gender : body > div > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > h3 > span
+Education : body > div > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > ul > li:nth-child(1)
+School : body > div > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > ul > li:nth-child(3)
+Mobile : body > div > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > p > label:nth-child(1) > span > span
+Hukou : body > div > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > ul > li:nth-child(3)
+Location : body > div > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > ul > li:nth-child(4)
+Email : body > div > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > p > label:nth-child(2) > span
+Career : body > div > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div.addcont.addexpe > div.infoview
+ProjectExperience : 
+EducationBackground : 
+TechnicalSkills : body > div > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div.infoview > p
+AppliedPosition : body > div > div:nth-child(1) > span > a
+Remark : body > div > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div.margin > div:nth-child(2)

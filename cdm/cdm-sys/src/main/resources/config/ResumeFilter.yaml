@@ -1,0 +1,120 @@
+Age :
+  gt_age_1 : 33 岁
+  gt_age_2 : 33岁
+  gt_age_3 : 34 岁
+  gt_age_4 : 34岁
+  gt_age_5 : 35 岁
+  gt_age_6 : 35岁
+  gt_age_7 : 36 岁
+  gt_age_8 : 36岁
+  gt_age_9 : 37 岁
+  gt_age_10 : 37岁
+  gt_age_11 : 38 岁
+  gt_age_12 : 38岁
+  gt_age_13 : 39 岁
+  gt_age_14 : 39岁
+  gt_age_15 : 40 岁
+  gt_age_16 : 40岁
+  gt_age_17 : 41 岁
+  gt_age_18 : 41岁
+  gt_age_19 : 42 岁
+  gt_age_20 : 42岁
+  gt_age_21 : 43 岁
+  gt_age_22 : 43岁
+  gt_age_23 : 44 岁
+  gt_age_24 : 44岁
+  gt_age_25 : 45 岁
+  gt_age_26 : 45岁
+  gt_age_27 : 46 岁
+  gt_age_28 : 46岁
+  gt_age_29 : 47 岁
+  gt_age_30 : 47岁
+  gt_age_31 : 48 岁
+  gt_age_32 : 48岁
+  gt_age_33 : 49 岁
+  gt_age_34 : 49岁
+  gt_year_80 : 1980年
+  gt_year_81 : 1981年
+  gt_year_82 : 1982年
+  gt_year_83 : 1983年
+  gt_year_84 : 1984年
+  gt_year_85 : 1985年
+  gt_year_70 : 1970年
+  gt_year_71 : 1971年
+  gt_year_72 : 1972年
+  gt_year_73 : 1973年
+  gt_year_74 : 1974年
+  gt_year_75 : 1975年
+  gt_year_76 : 1976年
+  gt_year_77 : 1977年
+  gt_year_78 : 1978年
+  gt_year_79 : 1979年
+  gt_salary_10 : 10万元
+  gt_salary_11 : 11万元
+  gt_salary_12 : 12万元
+  gt_salary_13 : 13万元
+  gt_salary_14 : 14万元
+  gt_salary_15 : 15万元
+  gt_salary_16 : 16万元
+  gt_salary_17 : 17万元
+  gt_salary_18 : 18万元
+  gt_salary_19 : 19万元
+  gt_salary_20 : 20万元
+  gt_salary_21: 2019
+  gt_salary_22: 2020
+  gt_salary_23: 达内
+  gt_salary_24: 北大青鸟
+
+
+Skills :
+  invalid_skills_1: selenium
+  invalid_skills_2: python+selenium
+  invalid_skills_3: python+Selenium
+  invalid_skills_4: Python+Selenium
+  invalid_skills_5: python+unittest+selenium
+  invalid_skills_6: python+Unittest+Selenium
+  invalid_skills_7: Python+Unittest+Selenium
+  invalid_skills_8: Selenium
+  invalid_skills_9: SELENIUM
+  invalid_skills_10: qtp
+  invalid_skills_11: QTP
+  invalid_skills_12: Qtp
+  invalid_skills_13: loadrunner
+  invalid_skills_14: load runner
+  invalid_skills_15: Loadrunner
+  invalid_skills_16: LoadRunner
+  invalid_skills_17: LOADRUNNER
+  invalid_skills_18: JMeter
+  invalid_skills_19: Jmeter
+  invalid_skills_20: jmeter
+  invalid_skills_21: JMETER
+  invalid_skills_22: JMeTer
+  invalid_skills_23: tableau
+  invalid_skills_24: Tableau
+  invalid_skills_25: TABLEAU
+  invalid_skills_26: SPSS
+  invalid_skills_27: spss
+  invalid_skills_28: 18535449753
+  invalid_skills_29: fun_liutong@163.com
+  invalid_skills_30: 13823781610
+  invalid_skills_31: numpy
+  invalid_skills_32: Numpy
+  invalid_skills_33: Pandas
+  invalid_skills_34: pandas
+  invalid_skills_35: Matplotlib
+  invalid_skills_36: matplotlib
+  invalid_skills_37: Scipy
+  invalid_skills_38: scipy
+  invalid_skills_39: typora
+  invalid_skills_40: Typora
+  invalid_skills_41: Django
+  invalid_skills_42: django
+  invalid_skills_43: postman
+  invalid_skills_44: Postman
+  invalid_skills_45: Mybatis
+  invalid_skills_46: mybatis
+  invalid_skills_47: Hibernate
+  invalid_skills_48: hibernate
+
+
+

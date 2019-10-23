@@ -1,0 +1,16 @@
+# 赶集网
+Name : body > table > tbody > tr > td > table:nth-child(2) > tbody > tr > td > div > table > tbody > tr > td > p
+Age : body > table > tbody > tr > td > table:nth-child(2) > tbody > tr > td > div > table > tbody > tr > td > p
+Gender : 
+Education : body > table > tbody > tr > td > table:nth-child(2) > tbody > tr > td > div > table > tbody > tr > td > div:nth-child(2) > span:nth-child(2)
+School : body > table > tbody > tr > td > table:nth-child(2) > tbody > tr > td > div > table > tbody > tr > td > div:nth-child(2) > span:nth-child(2)
+Mobile : body > table > tbody > tr > td > table:nth-child(2) > tbody > tr > td > div > table > tbody > tr > td > div:nth-child(2) > span:nth-child(5) > span
+Hukou : 
+Location : body > table > tbody > tr > td > table:nth-child(2) > tbody > tr > td > div > table > tbody > tr > td > div:nth-child(2) > span:nth-child(3)
+Email : 
+Career : 
+ProjectExperience : 
+EducationBackground : 
+TechnicalSkills : 
+AppliedPosition : body > table > tbody > tr > td > table:nth-child(2) > tbody > tr > td > div > p:nth-child(2) > span:nth-child(2)
+Remark : body > table > tbody > tr > td > table:nth-child(2) > tbody > tr > td > div > table > tbody > tr > td > div:nth-child(2) > span:nth-child(4)

@@ -12,7 +12,7 @@ pipeline {
           steps {
             echo 'build-frontend'
             dir(path: 'cdm') {
-              bat(script: 'mvn clean compile', label: 'mvn-cdm-compile')
+              bat(script: 'mvn clean package', label: 'mvn-cdm-compile')
             }
 
           }
